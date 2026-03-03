@@ -1,0 +1,447 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+}
+
+header .logo img{
+    height: 80px;
+    margin-left: 140px;
+}
+
+
+header .menu .nav ul{
+    list-style: none;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+header .menu .nav ul li{
+    float: left;
+    padding: 6px 20px;
+    color: black;
+    font-family: initial;
+    font-weight: 800;
+}
+
+header .menu .nav ul li:hover{
+    color: rgb(1, 153, 125);
+    cursor: pointer;
+}
+
+
+.banner{
+    width: 100%;
+    height: 550px;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    display:flex;
+    justify-content: space-between;
+}
+
+.banner .left{
+    width: 50%;
+}
+
+.banner .left .content{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.banner .left .content h1{
+    color: rgb(1, 153, 125);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.banner .left .content .h4{
+    height: 5px;
+}
+
+.banner .left .content h2{
+    color: black;
+    width: 220px;
+}
+
+.banner .left .button{
+    margin-left: 150px;
+}
+
+.banner .left .button button{
+    width: 110px;
+    color: black;
+    border: 2px solid black;
+    background-color:  blanchedalmond;
+    height: 30px;
+    border-radius: 25px;
+}
+
+.banner .left .button button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.banner .right{
+    width: 50%;
+}
+
+.banner .right img{
+    width: 80%;
+    margin-right: 250px;
+    margin-top: 60px;
+}
+
+
+.middle1{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.middle1 h4{
+    text-align: center;
+}
+
+.middle1 h1{
+    color: rgb(1, 153, 125);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.middle1 .row{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle1 .row .block1{
+    width: 20%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(0, 122, 75);
+    color: antiquewhite;
+    margin-left: 280px;
+}
+
+.middle1 .row .block1 img{
+    height: 130px;
+    margin-left: 120px;
+}
+
+.middle1 .row .block1 h3{
+    text-align: center;
+}
+
+.middle1 .row .block1 p{
+    text-align: center;
+}
+
+.middle1 .row .block1 button{
+    width: 110px;
+    color: white;
+    border: 1px solid antiquewhite;
+    background-color: rgb(0, 122, 75);
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 93px;
+    margin-bottom: 20px;
+}
+
+.middle1 .row .block1 button:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    color: black;
+    border: 1px solid;
+    border-color: none;
+}
+
+
+
+.middle1 .row .block2{
+    width: 20%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(0, 122, 75);
+    color: antiquewhite;
+}
+
+.middle1 .row .block2 img{
+    height: 130px;
+    margin-left: 100px;
+}
+
+.middle1 .row .block2 h3{
+    text-align: center;
+}
+
+.middle1 .row .block2 p{
+    text-align: center;
+}
+
+.middle1 .row .block2 button{
+    width: 110px;
+    color: white;
+    border: 1px solid antiquewhite;
+    background-color: rgb(0, 122, 75);
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 97px;
+}
+
+.middle1 .row .block2 button:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    color: black;
+    border: 1px solid;
+    border-color: none;
+}
+
+
+
+
+.middle1 .row .block3{
+    width: 20%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(0, 122, 75);
+    color: antiquewhite;
+    margin-right: 280px;
+}
+
+.middle1 .row .block3 img{
+    height: 130px;
+    margin-left: 120px;
+}
+
+.middle1 .row .block3 h3{
+    text-align: center;
+}
+
+.middle1 .row .block3 p{
+    text-align: center;
+}
+
+.middle1 .row .block3 button{
+    width: 110px;
+    color: white;
+    border: 1px solid antiquewhite;
+    background-color: rgb(0, 122, 75);
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 93px;
+}
+
+.middle1 .row .block3 button:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    color: black;
+    border: 1px solid;
+    border-color: none;
+}
+
+
+
+
+.middle2{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    margin-top: 200px;
+}
+
+.middle2 h4{
+    text-align: center;
+}
+
+.middle2 h1{
+    color: rgb(1, 153, 125);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.middle2 .block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle2 .block .left{
+    width: 35%;
+}
+
+.middle2 .block .left img{
+    height: 265px;
+    margin-left: 300px;
+    margin-top: 22px;
+}
+
+.middle2 .block .right{
+    width: 30%;
+    margin-right: 270px;
+}
+
+.middle2 .block .right button{
+    width: 110px;
+    color: black;
+    border: 2px solid black;
+    background-color:  white;
+    height: 30px;
+    border-radius: 25px;
+}
+
+.middle2 .block .right button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+.middle3{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.middle3 h4{
+    text-align: center;
+}
+
+.middle3 h1{
+    color: rgb(1, 153, 125);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.middle3 .block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.middle3 .block .left{
+    width: 30%;
+    margin-left: 270px;
+}
+
+.middle3 .block .left button{
+    width: 110px;
+    color: black;
+    border: 2px solid black;
+    background-color:  white;
+    height: 30px;
+    border-radius: 25px;
+}
+
+.middle3 .block .left button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+
+.middle3 .block .right{
+    width: 35%;
+    margin-right: 200px;
+}
+
+.middle3 .block .right img{
+    height: 265px;
+}
+
+
+
+.middle4{
+    width: 100%;
+    height: 300px;
+    background-color: blanchedalmond;
+    margin-top: 150px;
+}
+
+
+.middle4 .block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle4 .block .left{
+    width: 35%;
+}
+
+.middle4 .block .left img{
+    height: 265px;
+    margin-left: 300px;
+    margin-top: 22px;
+}
+
+.middle4 .block .right{
+    width: 30%;
+    margin-right: 270px;
+}
+
+.middle4 .block .right button{
+    width: 110px;
+    color: black;
+    border: 2px solid black;
+    background-color:  blanchedalmond;
+    height: 30px;
+    border-radius: 25px;
+}
+
+.middle4 .block .right button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.footer .app .fav{
+    margin-left: 700px;
+}
+
+.footer .app .fav .fa{
+    margin-right: 10px;
+}
+
+.footer .info nav ul{
+    list-style: none;
+    margin-left: 530px;
+}
+
+.footer .info nav ul li{
+    float: left;
+    padding: 6px 15px;
+}
+
+
+.footer .c{
+    margin-top: 60px;
+}
+
+.footer .c h4{
+    text-align: center;
+}
